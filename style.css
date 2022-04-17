@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-center{
+    display: flex;
+    
+}
+.nav-links > ul> li{
+    list-style-type: none;
+}
+.nav-links > ul > li > a{
+    text-decoration: none;
+}
