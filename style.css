@@ -1,6 +1,12 @@
+* {
+
+    text-align: center;
+    
+    }
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .nav-center{
     display: flex;
@@ -12,3 +18,16 @@ body{
 .nav-links > ul > li > a{
     text-decoration: none;
 }
+
+button {
+    background: none;
+    border-color: #87db41;
+    color: #87db41;
+    padding: 5px 5px;
+    width: 30%;
+    text-align: center;
+    outline: none;
+  }
+  button:active {
+    border-style: outset;
+  }
